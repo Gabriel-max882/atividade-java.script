@@ -1,0 +1,15 @@
+let numero = parseFloat(prompt("Digite um número: "));
+
+if (numero > 0) { 
+    console.log("O número é positivo");
+}
+else if (número < 0) {
+    console.log("O número é negativo");
+}
+
+if (número % 2 === 0) {
+    console.log(" O número é par");
+}
+else{
+    console.log("O número é impar");
+}
