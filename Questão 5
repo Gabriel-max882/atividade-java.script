@@ -1,0 +1,7 @@
+const salarioMinimo = 1525;
+
+let salarioUsuario = parseFloat(prompt("Digite o valor do seu salário:"));
+
+let quantidadeSalarios = salarioUsuario / salarioMinimo; 
+
+console.log("O seu salário é equivalente a " + quantidadeSalarios.toFixed(2) + " salários mínimos.");
