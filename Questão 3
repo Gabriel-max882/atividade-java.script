@@ -1,0 +1,12 @@
+let A = parseInt(prompt("Digite o Valor de A:"));
+let B = parseInt(prompt("Digite o Valor de B:"));
+let C;
+
+if (A === B) {
+    C = A + B;
+    console.log("Os valores são iguais. Soma:  " + C);
+}
+else {
+    C = A * B;
+    console.log("Os valores são diferentes. Multiplicação: " + C);
+}
