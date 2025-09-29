@@ -1,0 +1,6 @@
+let valor = parseFloat(prompt("Digite um valor:"));
+
+let reajuste = valor * 0.05;
+let valorfinal = valor + reajuste;
+
+console.log("O valor com 5% de reajuste é: " + valorfinal.toFixed(2));
