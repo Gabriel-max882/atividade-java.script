@@ -1,0 +1,12 @@
+let valor1 =
+  prompt("Digite o primeiro valor lógico (true ou false):") === "true";
+let valor2 =
+    prompt("Digite o segundo valor lógico (true ou false):") === "true";
+  
+if (valor1 === true && valor2 === true) {
+    console.log("Ambos os valores são VERDADEIROS.");
+}
+
+else (valor1 === false && valor2 === false); {
+  console.log("Ambos os valores são FALSOS.");
+}
